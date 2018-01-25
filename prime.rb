@@ -1,6 +1,7 @@
 def prime?(n)
-  if n < 1
+  if n <= 1
     false
-  elsif n < 3
+  elsif n <= 3
     true
+  elsif n
 end
