@@ -3,5 +3,9 @@ def prime?(n)
     false
   elsif n <= 3
     true
-  elsif n
+  elsif n%2==0 || n%3==0
+    false
+  else
+    
+  end
 end
